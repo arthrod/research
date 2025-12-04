@@ -34,7 +34,11 @@ The detailed comparison log is available in `comparison_notes.md`.
 ### Honorable Mentions
 
 - **`html-docx-js-typescript`**: Held the title for a significant portion of the comparison due to its strong TypeScript support and decent documentation, but was surpassed by `@turbodocx/html-to-docx` in documentation depth and apparent maturity.
-- **`@mark-beeby/html-to-docx`**: Scored very highly (tied with winner in score), but `@turbodocx` was retained as the winner (likely due to tie-breaking order or specific feature set nuances inferred). It is also a strong contender.
+- **`@mark-beeby/html-to-docx`**: Scored very highly (tied with winner in score), but `@turbodocx` was retained as the winner.
+
+### Note on Framework Specific Libraries
+
+Packages like `prosemirror-docx` and `@ckeditor/ckeditor5-export-word` were evaluated but scored lower due to their specific dependency on those editors, making them less suitable for general-purpose HTML to DOCX conversion tasks.
 
 ## Conclusion
 

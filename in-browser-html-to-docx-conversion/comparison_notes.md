@@ -89,7 +89,7 @@ Match: **html-docx-js-typescript** vs **html-to-docx-typescript**
 
 Match: **html-docx-js-typescript** vs **prosemirror-docx**
 - html-docx-js-typescript: README size 1754, Has tests, Has TypeScript support, Version 0.1.5, Has description (Score: 6)
-- prosemirror-docx: README size 5529, Has TypeScript support, Version 0.6.1, Has description, ProseMirror specific (Score: 3)
+- prosemirror-docx: README size 5529, Has TypeScript support, Version 0.6.1, Has description, Framework specific (Score: 3)
 -> **Winner: html-docx-js-typescript** (Retains Title)
 
 Match: **html-docx-js-typescript** vs **@types/html-docx-js**
@@ -125,6 +125,11 @@ Match: **@turbodocx/html-to-docx** vs **@adalat-ai/html-to-docx**
 Match: **@turbodocx/html-to-docx** vs **@kaipeng/html-docx-js**
 - @turbodocx/html-to-docx: README size 24303, Has tests, Has TypeScript support, Version 1.18.1, Has description (Score: 7)
 - @kaipeng/html-docx-js: README size 3575, Has tests, Version 0.3.1, Has description (Score: 4)
+-> **Winner: @turbodocx/html-to-docx** (Retains Title)
+
+Match: **@turbodocx/html-to-docx** vs **@ckeditor/ckeditor5-export-word**
+- @turbodocx/html-to-docx: README size 24303, Has tests, Has TypeScript support, Version 1.18.1, Has description (Score: 7)
+- @ckeditor/ckeditor5-export-word: README size 3071, Has TypeScript support, Version 47.3.0, Has description, Framework specific (Score: 2)
 -> **Winner: @turbodocx/html-to-docx** (Retains Title)
 
 # Final Winner: @turbodocx/html-to-docx

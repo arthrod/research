@@ -289,16 +289,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/assets/contentTypesXml.ts
-- dist/assets/documentXmlRels.d.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
 - src/templates/index.ts
-- src/assets/index.ts
+- dist/index.js
+- src/assets/documentXmlRels.ts
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/utils.js
+- dist/templates/index.js
 - ...
 
 ---
@@ -359,16 +359,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- dist/assets/documentXmlRels.d.ts
-- dist/internal.js
-- dist/assets/index.d.ts
-- dist/utils.js
-- dist/templates/documentTemplate.js
 - dist/assets/index.js
+- dist/index.js
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/templates/footerTemplate.js
+- dist/utils.js
+- dist/templates/index.js
+- dist/templates/index.d.ts
+- dist/internal.d.ts
 - ...
 
 ---
@@ -550,16 +550,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/extends/wordFile.d.ts
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/extends/wordFile.ts
-- src/assets/contentTypesXml.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
+- src/templates/index.ts
+- dist/index.js
+- dist/extends/footerFileInfo.d.ts
+- src/assets/documentXmlRels.ts
 - dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/extends/relationFileInfo.d.ts
 - ...
 
 ---
@@ -656,16 +656,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/assets/contentTypesXml.ts
-- dist/assets/documentXmlRels.d.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
 - src/templates/index.ts
-- src/assets/index.ts
+- dist/index.js
+- src/assets/documentXmlRels.ts
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/utils.js
+- dist/templates/index.js
 - ...
 
 ---
@@ -722,8 +722,8 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/html-to-docx.umd.js
 - dist/html-to-docx.esm.js
+- dist/html-to-docx.umd.js
 
 ---
 
@@ -789,16 +789,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
+- dist/templates/stylesTemplate.d.ts
+- dist/assets/index.js
+- dist/index.js
 - dist/assets/documentXmlRels.d.ts
 - dist/templates/themeTemplate.js
-- dist/internal.js
-- dist/assets/index.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/templates/themeTemplate.d.ts
+- dist/templates/stylesTemplate.js
 - dist/utils.js
-- dist/templates/documentTemplate.js
 - ...
 
 ---
@@ -874,16 +874,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/assets/contentTypesXml.ts
-- dist/assets/documentXmlRels.d.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
 - src/templates/index.ts
-- src/assets/index.ts
+- dist/index.js
+- src/assets/documentXmlRels.ts
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/utils.js
+- dist/templates/index.js
 - ...
 
 ---
@@ -963,16 +963,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/assets/contentTypesXml.ts
-- dist/assets/documentXmlRels.d.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
 - src/templates/index.ts
-- src/assets/index.ts
+- dist/index.js
+- src/assets/documentXmlRels.ts
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/utils.js
+- dist/templates/index.js
 - ...
 
 ---
@@ -1224,16 +1224,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/index.d.ts
-- src/__tests__/node.env.test.ts
-- src/templates/documentTemplate.ts
-- dist/templates/index.d.ts
-- dist/assets/relsXml.js
-- dist/utils.d.ts
-- src/assets/contentTypesXml.ts
-- dist/assets/documentXmlRels.d.ts
+- src/assets/relsXml.ts
+- dist/assets/index.js
 - src/templates/index.ts
-- src/assets/index.ts
+- dist/index.js
+- src/assets/documentXmlRels.ts
+- dist/assets/documentXmlRels.d.ts
+- dist/assets/contentTypesXml.d.ts
+- dist/templates/mhtPartTemplate.js
+- dist/utils.js
+- dist/templates/index.js
 - ...
 
 ---
@@ -1727,14 +1727,14 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/docx-document.d.ts
-- dist/types.d.ts
-- dist/index.d.ts
-- dist/html-to-docx.esm.js
-- dist/html-to-docx.d.ts
-- dist/constants.d.ts
-- dist/namespaces.d.ts
 - dist/html-to-docx.umd.js
+- dist/html-to-docx.d.ts
+- dist/docx-document.d.ts
+- dist/html-to-docx.esm.js
+- dist/constants.d.ts
+- dist/index.d.ts
+- dist/namespaces.d.ts
+- dist/types.d.ts
 
 ---
 
@@ -1785,16 +1785,16 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/cjs/numbering.js
-- dist/cjs/utils.js
-- dist/types/utils.d.ts
-- dist/types/numbering.d.ts
+- dist/cjs/types.js
 - dist/esm/utils.js
 - dist/esm/types.js
+- dist/types/schema.d.ts
+- dist/esm/numbering.js
 - dist/types/serializer.d.ts
-- dist/esm/schema.js
+- dist/types/utils.d.ts
 - dist/types/types.d.ts
-- dist/cjs/types.js
+- dist/esm/schema.js
+- dist/cjs/index.js
 - ...
 
 ---
@@ -2132,8 +2132,8 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/html-to-docx.umd.js
 - dist/html-to-docx.esm.js
+- dist/html-to-docx.umd.js
 
 ---
 
@@ -2203,15 +2203,15 @@ Potentially relevant files for conversion logic:
 ### Analysis
 Potentially relevant files for conversion logic:
 - dist/document-settings.js
-- dist/index.d.ts
+- dist/utils/references-page-generator.d.ts
+- dist/index.js
+- dist/utils/quill-image-to-docx.service.d.ts
+- dist/document-settings.d.ts
 - dist/citation-interfaces.js
 - dist/html-to-docx.service.d.ts
-- dist/html-to-docx.service.js
-- dist/utils/docx-formatting-utils.js
-- dist/utils/quill-html-element-helpers.js
-- dist/utils/quill-image-to-docx.service.js
-- dist/cli.js
-- dist/utils/quill-image-to-docx.service.d.ts
+- dist/utils/docx-formatting-utils.d.ts
+- dist/quill-blot-constants.js
+- dist/index.d.ts
 - ...
 
 ---
@@ -3095,8 +3095,8 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/html-to-docx.umd.js
 - dist/html-to-docx.esm.js
+- dist/html-to-docx.umd.js
 
 ---
 
@@ -3249,8 +3249,8 @@ Potentially relevant files for conversion logic:
 
 ### Analysis
 Potentially relevant files for conversion logic:
-- dist/html-to-docx.umd.js
 - dist/html-to-docx.esm.js
+- dist/html-to-docx.umd.js
 
 ---
 
@@ -3333,5 +3333,422 @@ Potentially relevant files for conversion logic:
 Potentially relevant files for conversion logic:
 - build/api.js
 - dist/html-docx.js
+
+---
+
+## @ckeditor/ckeditor5-export-word
+
+**Version:** 47.3.0
+**Description:** Export to Word feature for CKEditor 5.
+**Main:** src/index.js
+
+### Files
+**Total Size:** 517249 bytes
+
+| File | Size (bytes) |
+| --- | --- |
+| CHANGELOG.md | 130 |
+| LICENSE.md | 939 |
+| README.md | 3071 |
+| build/export-word.js | 12585 |
+| build/translations/af.js | 356 |
+| build/translations/ar.js | 571 |
+| build/translations/ast.js | 358 |
+| build/translations/az.js | 356 |
+| build/translations/be.js | 356 |
+| build/translations/bg.js | 736 |
+| build/translations/bn.js | 931 |
+| build/translations/bs.js | 356 |
+| build/translations/ca.js | 606 |
+| build/translations/cs.js | 581 |
+| build/translations/da.js | 550 |
+| build/translations/de-ch.js | 368 |
+| build/translations/de.js | 561 |
+| build/translations/el.js | 741 |
+| build/translations/en-au.js | 431 |
+| build/translations/en-gb.js | 368 |
+| build/translations/eo.js | 356 |
+| build/translations/es-co.js | 368 |
+| build/translations/es.js | 588 |
+| build/translations/et.js | 538 |
+| build/translations/eu.js | 356 |
+| build/translations/fa.js | 356 |
+| build/translations/fi.js | 550 |
+| build/translations/fr.js | 589 |
+| build/translations/gl.js | 597 |
+| build/translations/gu.js | 356 |
+| build/translations/he.js | 554 |
+| build/translations/hi.js | 907 |
+| build/translations/hr.js | 424 |
+| build/translations/hu.js | 567 |
+| build/translations/hy.js | 356 |
+| build/translations/id.js | 518 |
+| build/translations/it.js | 573 |
+| build/translations/ja.js | 593 |
+| build/translations/jv.js | 419 |
+| build/translations/kk.js | 356 |
+| build/translations/km.js | 356 |
+| build/translations/kn.js | 356 |
+| build/translations/ko.js | 618 |
+| build/translations/ku.js | 356 |
+| build/translations/lt.js | 577 |
+| build/translations/lv.js | 561 |
+| build/translations/ms.js | 517 |
+| build/translations/nb.js | 356 |
+| build/translations/ne.js | 356 |
+| build/translations/nl.js | 573 |
+| build/translations/no.js | 555 |
+| build/translations/oc.js | 356 |
+| build/translations/pl.js | 570 |
+| build/translations/pt-br.js | 600 |
+| build/translations/pt.js | 582 |
+| build/translations/ro.js | 600 |
+| build/translations/ru.js | 663 |
+| build/translations/si.js | 356 |
+| build/translations/sk.js | 600 |
+| build/translations/sl.js | 356 |
+| build/translations/sq.js | 356 |
+| build/translations/sr-latn.js | 549 |
+| build/translations/sr.js | 584 |
+| build/translations/sv.js | 534 |
+| build/translations/th.js | 740 |
+| build/translations/ti.js | 356 |
+| build/translations/tk.js | 356 |
+| build/translations/tr.js | 566 |
+| build/translations/tt.js | 356 |
+| build/translations/ug.js | 464 |
+| build/translations/uk.js | 689 |
+| build/translations/ur.js | 454 |
+| build/translations/uz.js | 356 |
+| build/translations/vi.js | 576 |
+| build/translations/zh-cn.js | 514 |
+| build/translations/zh.js | 493 |
+| ckeditor5-metadata.json | 467 |
+| dist/index-content.css | 184 |
+| dist/index-editor.css | 184 |
+| dist/index.css | 184 |
+| dist/index.js | 11910 |
+| dist/translations/af.d.ts | 319 |
+| dist/translations/af.js | 1524 |
+| dist/translations/af.umd.js | 1810 |
+| dist/translations/ar.d.ts | 319 |
+| dist/translations/ar.js | 1914 |
+| dist/translations/ar.umd.js | 2200 |
+| dist/translations/ast.d.ts | 319 |
+| dist/translations/ast.js | 1525 |
+| dist/translations/ast.umd.js | 1816 |
+| dist/translations/az.d.ts | 319 |
+| dist/translations/az.js | 1524 |
+| dist/translations/az.umd.js | 1810 |
+| dist/translations/be.d.ts | 319 |
+| dist/translations/be.js | 1644 |
+| dist/translations/be.umd.js | 1930 |
+| dist/translations/bg.d.ts | 319 |
+| dist/translations/bg.js | 1991 |
+| dist/translations/bg.umd.js | 2277 |
+| dist/translations/bn.d.ts | 319 |
+| dist/translations/bn.js | 2180 |
+| dist/translations/bn.umd.js | 2466 |
+| dist/translations/bs.d.ts | 319 |
+| dist/translations/bs.js | 1644 |
+| dist/translations/bs.umd.js | 1930 |
+| dist/translations/ca.d.ts | 319 |
+| dist/translations/ca.js | 1900 |
+| dist/translations/ca.umd.js | 2186 |
+| dist/translations/cs.d.ts | 319 |
+| dist/translations/cs.js | 1870 |
+| dist/translations/cs.umd.js | 2156 |
+| dist/translations/da.d.ts | 319 |
+| dist/translations/da.js | 1778 |
+| dist/translations/da.umd.js | 2064 |
+| dist/translations/de-ch.d.ts | 319 |
+| dist/translations/de-ch.js | 1527 |
+| dist/translations/de-ch.umd.js | 1830 |
+| dist/translations/de.d.ts | 319 |
+| dist/translations/de.js | 1768 |
+| dist/translations/de.umd.js | 2054 |
+| dist/translations/el.d.ts | 319 |
+| dist/translations/el.js | 1981 |
+| dist/translations/el.umd.js | 2267 |
+| dist/translations/en-au.d.ts | 319 |
+| dist/translations/en-au.js | 1617 |
+| dist/translations/en-au.umd.js | 1920 |
+| dist/translations/en-gb.d.ts | 319 |
+| dist/translations/en-gb.js | 1527 |
+| dist/translations/en-gb.umd.js | 1830 |
+| dist/translations/en.d.ts | 319 |
+| dist/translations/en.js | 1756 |
+| dist/translations/en.umd.js | 2042 |
+| dist/translations/eo.d.ts | 319 |
+| dist/translations/eo.js | 1524 |
+| dist/translations/eo.umd.js | 1810 |
+| dist/translations/es-co.d.ts | 319 |
+| dist/translations/es-co.js | 1527 |
+| dist/translations/es-co.umd.js | 1830 |
+| dist/translations/es.d.ts | 319 |
+| dist/translations/es.js | 1861 |
+| dist/translations/es.umd.js | 2147 |
+| dist/translations/et.d.ts | 319 |
+| dist/translations/et.js | 1751 |
+| dist/translations/et.umd.js | 2037 |
+| dist/translations/eu.d.ts | 319 |
+| dist/translations/eu.js | 1524 |
+| dist/translations/eu.umd.js | 1810 |
+| dist/translations/fa.d.ts | 319 |
+| dist/translations/fa.js | 1513 |
+| dist/translations/fa.umd.js | 1799 |
+| dist/translations/fi.d.ts | 319 |
+| dist/translations/fi.js | 1754 |
+| dist/translations/fi.umd.js | 2040 |
+| dist/translations/fr.d.ts | 319 |
+| dist/translations/fr.js | 1876 |
+| dist/translations/fr.umd.js | 2162 |
+| dist/translations/gl.d.ts | 319 |
+| dist/translations/gl.js | 1870 |
+| dist/translations/gl.umd.js | 2156 |
+| dist/translations/gu.d.ts | 319 |
+| dist/translations/gu.js | 1524 |
+| dist/translations/gu.umd.js | 1810 |
+| dist/translations/he.d.ts | 319 |
+| dist/translations/he.js | 1773 |
+| dist/translations/he.umd.js | 2059 |
+| dist/translations/hi.d.ts | 319 |
+| dist/translations/hi.js | 2174 |
+| dist/translations/hi.umd.js | 2460 |
+| dist/translations/hr.d.ts | 319 |
+| dist/translations/hr.js | 1739 |
+| dist/translations/hr.umd.js | 2025 |
+| dist/translations/hu.d.ts | 319 |
+| dist/translations/hu.js | 1789 |
+| dist/translations/hu.umd.js | 2075 |
+| dist/translations/hy.d.ts | 319 |
+| dist/translations/hy.js | 1524 |
+| dist/translations/hy.umd.js | 1810 |
+| dist/translations/id.d.ts | 319 |
+| dist/translations/id.js | 1729 |
+| dist/translations/id.umd.js | 2015 |
+| dist/translations/it.d.ts | 319 |
+| dist/translations/it.js | 1816 |
+| dist/translations/it.umd.js | 2102 |
+| dist/translations/ja.d.ts | 319 |
+| dist/translations/ja.js | 1750 |
+| dist/translations/ja.umd.js | 2036 |
+| dist/translations/jv.d.ts | 319 |
+| dist/translations/jv.js | 1609 |
+| dist/translations/jv.umd.js | 1895 |
+| dist/translations/kk.d.ts | 319 |
+| dist/translations/kk.js | 1524 |
+| dist/translations/kk.umd.js | 1810 |
+| dist/translations/km.d.ts | 319 |
+| dist/translations/km.js | 1513 |
+| dist/translations/km.umd.js | 1799 |
+| dist/translations/kn.d.ts | 319 |
+| dist/translations/kn.js | 1524 |
+| dist/translations/kn.umd.js | 1810 |
+| dist/translations/ko.d.ts | 319 |
+| dist/translations/ko.js | 1829 |
+| dist/translations/ko.umd.js | 2115 |
+| dist/translations/ku.d.ts | 319 |
+| dist/translations/ku.js | 1522 |
+| dist/translations/ku.umd.js | 1810 |
+| dist/translations/lt.d.ts | 319 |
+| dist/translations/lt.js | 1899 |
+| dist/translations/lt.umd.js | 2185 |
+| dist/translations/lv.d.ts | 319 |
+| dist/translations/lv.js | 1862 |
+| dist/translations/lv.umd.js | 2148 |
+| dist/translations/ms.d.ts | 319 |
+| dist/translations/ms.js | 1728 |
+| dist/translations/ms.umd.js | 2014 |
+| dist/translations/nb.d.ts | 319 |
+| dist/translations/nb.js | 1524 |
+| dist/translations/nb.umd.js | 1810 |
+| dist/translations/ne.d.ts | 319 |
+| dist/translations/ne.js | 1524 |
+| dist/translations/ne.umd.js | 1810 |
+| dist/translations/nl.d.ts | 319 |
+| dist/translations/nl.js | 1807 |
+| dist/translations/nl.umd.js | 2093 |
+| dist/translations/no.d.ts | 319 |
+| dist/translations/no.js | 1783 |
+| dist/translations/no.umd.js | 2069 |
+| dist/translations/oc.d.ts | 319 |
+| dist/translations/oc.js | 1523 |
+| dist/translations/oc.umd.js | 1809 |
+| dist/translations/pl.d.ts | 319 |
+| dist/translations/pl.js | 1893 |
+| dist/translations/pl.umd.js | 2179 |
+| dist/translations/pt-br.d.ts | 319 |
+| dist/translations/pt-br.js | 1849 |
+| dist/translations/pt-br.umd.js | 2150 |
+| dist/translations/pt.d.ts | 319 |
+| dist/translations/pt.js | 1843 |
+| dist/translations/pt.umd.js | 2127 |
+| dist/translations/ro.d.ts | 319 |
+| dist/translations/ro.js | 1932 |
+| dist/translations/ro.umd.js | 2218 |
+| dist/translations/ru.d.ts | 319 |
+| dist/translations/ru.js | 2011 |
+| dist/translations/ru.umd.js | 2297 |
+| dist/translations/si.d.ts | 319 |
+| dist/translations/si.js | 1524 |
+| dist/translations/si.umd.js | 1810 |
+| dist/translations/sk.d.ts | 319 |
+| dist/translations/sk.js | 1901 |
+| dist/translations/sk.umd.js | 2187 |
+| dist/translations/sl.d.ts | 319 |
+| dist/translations/sl.js | 1606 |
+| dist/translations/sl.umd.js | 1892 |
+| dist/translations/sq.d.ts | 319 |
+| dist/translations/sq.js | 1524 |
+| dist/translations/sq.umd.js | 1810 |
+| dist/translations/sr-latn.d.ts | 319 |
+| dist/translations/sr-latn.js | 1895 |
+| dist/translations/sr-latn.umd.js | 2208 |
+| dist/translations/sr.d.ts | 319 |
+| dist/translations/sr.js | 1941 |
+| dist/translations/sr.umd.js | 2227 |
+| dist/translations/sv.d.ts | 319 |
+| dist/translations/sv.js | 1753 |
+| dist/translations/sv.umd.js | 2039 |
+| dist/translations/th.d.ts | 319 |
+| dist/translations/th.js | 1924 |
+| dist/translations/th.umd.js | 2210 |
+| dist/translations/ti.d.ts | 319 |
+| dist/translations/ti.js | 1523 |
+| dist/translations/ti.umd.js | 1809 |
+| dist/translations/tk.d.ts | 319 |
+| dist/translations/tk.js | 1524 |
+| dist/translations/tk.umd.js | 1810 |
+| dist/translations/tr.d.ts | 319 |
+| dist/translations/tr.js | 1796 |
+| dist/translations/tr.umd.js | 2082 |
+| dist/translations/tt.d.ts | 319 |
+| dist/translations/tt.js | 1513 |
+| dist/translations/tt.umd.js | 1799 |
+| dist/translations/ug.d.ts | 319 |
+| dist/translations/ug.js | 1642 |
+| dist/translations/ug.umd.js | 1928 |
+| dist/translations/uk.d.ts | 319 |
+| dist/translations/uk.js | 2037 |
+| dist/translations/uk.umd.js | 2323 |
+| dist/translations/ur.d.ts | 319 |
+| dist/translations/ur.js | 1646 |
+| dist/translations/ur.umd.js | 1932 |
+| dist/translations/uz.d.ts | 319 |
+| dist/translations/uz.js | 1523 |
+| dist/translations/uz.umd.js | 1809 |
+| dist/translations/vi.d.ts | 319 |
+| dist/translations/vi.js | 1829 |
+| dist/translations/vi.umd.js | 2115 |
+| dist/translations/zh-cn.d.ts | 319 |
+| dist/translations/zh-cn.js | 1677 |
+| dist/translations/zh-cn.umd.js | 1980 |
+| dist/translations/zh.d.ts | 319 |
+| dist/translations/zh.js | 1674 |
+| dist/translations/zh.umd.js | 1960 |
+| lang/contexts.json | 761 |
+| lang/translations/af.po | 1314 |
+| lang/translations/ar.po | 1619 |
+| lang/translations/ast.po | 1315 |
+| lang/translations/az.po | 1314 |
+| lang/translations/be.po | 1412 |
+| lang/translations/bg.po | 1694 |
+| lang/translations/bn.po | 1889 |
+| lang/translations/bs.po | 1412 |
+| lang/translations/ca.po | 1564 |
+| lang/translations/cs.po | 1572 |
+| lang/translations/da.po | 1508 |
+| lang/translations/de-ch.po | 1317 |
+| lang/translations/de.po | 1519 |
+| lang/translations/el.po | 1699 |
+| lang/translations/en-au.po | 1380 |
+| lang/translations/en-gb.po | 1317 |
+| lang/translations/en.po | 1486 |
+| lang/translations/eo.po | 1314 |
+| lang/translations/es-co.po | 1317 |
+| lang/translations/es.po | 1546 |
+| lang/translations/et.po | 1496 |
+| lang/translations/eu.po | 1314 |
+| lang/translations/fa.po | 1307 |
+| lang/translations/fi.po | 1508 |
+| lang/translations/fr.po | 1558 |
+| lang/translations/gl.po | 1555 |
+| lang/translations/gu.po | 1314 |
+| lang/translations/he.po | 1512 |
+| lang/translations/hi.po | 1865 |
+| lang/translations/hr.po | 1480 |
+| lang/translations/hu.po | 1525 |
+| lang/translations/hy.po | 1314 |
+| lang/translations/id.po | 1469 |
+| lang/translations/it.po | 1531 |
+| lang/translations/ja.po | 1544 |
+| lang/translations/jv.po | 1378 |
+| lang/translations/kk.po | 1314 |
+| lang/translations/km.po | 1307 |
+| lang/translations/kn.po | 1314 |
+| lang/translations/ko.po | 1569 |
+| lang/translations/ku.po | 1314 |
+| lang/translations/lt.po | 1618 |
+| lang/translations/lv.po | 1570 |
+| lang/translations/ms.po | 1468 |
+| lang/translations/nb.po | 1314 |
+| lang/translations/ne.po | 1317 |
+| lang/translations/nl.po | 1531 |
+| lang/translations/no.po | 1513 |
+| lang/translations/oc.po | 1313 |
+| lang/translations/pl.po | 1604 |
+| lang/translations/pt-br.po | 1549 |
+| lang/translations/pt.po | 1540 |
+| lang/translations/ro.po | 1614 |
+| lang/translations/ru.po | 1719 |
+| lang/translations/si.po | 1317 |
+| lang/translations/sk.po | 1591 |
+| lang/translations/sl.po | 1382 |
+| lang/translations/sq.po | 1314 |
+| lang/translations/sr-latn.po | 1595 |
+| lang/translations/sr.po | 1640 |
+| lang/translations/sv.po | 1492 |
+| lang/translations/th.po | 1691 |
+| lang/translations/ti.po | 1313 |
+| lang/translations/tk.po | 1314 |
+| lang/translations/tr.po | 1523 |
+| lang/translations/tt.po | 1307 |
+| lang/translations/ug.po | 1415 |
+| lang/translations/uk.po | 1745 |
+| lang/translations/ur.po | 1412 |
+| lang/translations/uz.po | 1313 |
+| lang/translations/vi.po | 1527 |
+| lang/translations/zh-cn.po | 1456 |
+| lang/translations/zh.po | 1447 |
+| package.json | 2002 |
+| src/augmentation.d.ts | 762 |
+| src/augmentation.js | 1185 |
+| src/exportword.d.ts | 11817 |
+| src/exportword.js | 3645 |
+| src/exportwordcommand.d.ts | 1006 |
+| src/exportwordcommand.js | 7253 |
+| src/exportwordui.d.ts | 724 |
+| src/exportwordui.js | 4733 |
+| src/index.d.ts | 1143 |
+| src/index.js | 2284 |
+| src/utils.d.ts | 195 |
+| src/utils.js | 8445 |
+| src/utils/common-translations.d.ts | 371 |
+| src/utils/common-translations.js | 1880 |
+
+### Analysis
+Potentially relevant files for conversion logic:
+- dist/translations/sr.umd.js
+- dist/translations/ja.js
+- dist/translations/sl.umd.js
+- dist/translations/ca.js
+- dist/translations/fa.umd.js
+- dist/translations/oc.js
+- dist/translations/sr-latn.js
+- dist/translations/gl.d.ts
+- dist/translations/zh.umd.js
+- dist/translations/pt.js
+- ...
 
 ---

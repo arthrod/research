@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@adalat-ai/html-to-docx": "^1.8.0",
+    "@ckeditor/ckeditor5-export-word": "^47.3.0",
     "@gc123/html-docx-js": "^0.3.1",
     "@kaipeng/html-docx-js": "^0.3.1",
     "@mark-beeby/html-to-docx": "^1.6.4-rc.63",

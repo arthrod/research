@@ -24,3 +24,4 @@ prosemirror-docx
 @gc123/html-docx-js
 @adalat-ai/html-to-docx
 @kaipeng/html-docx-js
+@ckeditor/ckeditor5-export-word
