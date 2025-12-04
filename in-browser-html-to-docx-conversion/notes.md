@@ -215,3 +215,26 @@ Reasons:
 3. **TypeScript adoption is mixed**: Many packages still JavaScript-only
 4. **Most packages are forks**: html-docx-js spawned 10+ forks, html-to-docx spawned 5+
 5. **@turbodocx is the most actively maintained** with most features
+
+---
+
+## Detailed Top-3 Comparison (Added 2025-12-04)
+
+See `comparison/detailed-comparison.md` for the full 20-factor analysis.
+
+### Quick Summary
+
+| # | Factor | @turbodocx | @packback | html-to-docx-lite |
+|---|--------|-----------|-----------|------------------|
+| 1 | Bundle Size | 1.66 MB | 215 KB | 262 KB |
+| 2 | Dependencies | 12 | 1 | 10 |
+| 3 | TypeScript | .d.ts | Native | None |
+| 4 | Tests | Jest | Jest | Example only |
+| 5 | HTML Coverage | Full | Quill-specific | Full |
+
+**Overall Scores:**
+- @turbodocx/html-to-docx: 8.15/10 (WINNER)
+- html-to-docx-lite: 7.05/10
+- @packback/html-to-docx: 6.40/10
+
+**Recommendation for "works every time" + comprehensive:** `@turbodocx/html-to-docx`
