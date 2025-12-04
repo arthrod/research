@@ -1,2 +1,10 @@
 .DS_Store
 __pycache__
+in-browser-html-to-docx-conversion/*
+!in-browser-html-to-docx-conversion/notes.md
+!in-browser-html-to-docx-conversion/files_list.md
+!in-browser-html-to-docx-conversion/README.md
+!in-browser-html-to-docx-conversion/package.json
+!in-browser-html-to-docx-conversion/.gitignore
+!in-browser-html-to-docx-conversion/analysis.md
+!in-browser-html-to-docx-conversion/comparison_notes.md
