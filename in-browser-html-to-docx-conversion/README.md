@@ -259,12 +259,76 @@ const blob = await word.build();
 
 ---
 
+## Source Code Analysis: @turbodocx/html-to-docx
+
+### Component Breakdown
+
+We analyzed the source code to understand what can be removed to reduce package size:
+
+```
+Total Source: 32 files, ~7,565 lines of code
+Dependencies: 11 runtime packages
+
+Component Distribution:
+├── Essential Core (83%) ......... 6,264 lines - Cannot remove
+│   ├── xml-builder.js ........... 4,037 lines (53%)
+│   ├── docx-document.js ......... 641 lines
+│   ├── render-document-file.js .. 620 lines
+│   ├── html-parser.js ........... 391 lines
+│   └── Other core files ......... 575 lines
+├── Schema Templates (8%) ........ 579 lines - Required
+└── Image Processing (9%) ........ 722 lines - OPTIONAL
+```
+
+### Size Reduction Opportunities
+
+| Strategy | Savings | Difficulty |
+|----------|---------|------------|
+| Replace `lodash` with `structuredClone` | ~500KB | Easy |
+| Set `skipHTMLMinify: true` | ~100KB | Easy |
+| Remove image handling (if not needed) | ~200KB + 700 lines | Medium |
+| **Total Potential** | **~800KB** | |
+
+### Dependency Analysis
+
+| Dependency | Purpose | Can Remove? |
+|------------|---------|-------------|
+| xmlbuilder2 | XML generation | No (core) |
+| jszip | ZIP creation | No (core) |
+| htmlparser2 | HTML parsing | No (core) |
+| lodash | Only `cloneDeep` | **Yes - use structuredClone** |
+| html-minifier-terser | HTML preprocessing | **Yes - skipHTMLMinify** |
+| axios | Remote image download | Yes (if no images) |
+| lru-cache | Image caching | Yes (if no images) |
+| image-size | Image dimensions | Yes (if no images) |
+| mime-types | MIME detection | Yes (if no images) |
+| html-entities | HTML entity decode | No (core) |
+| nanoid | Unique IDs | No (tiny) |
+| color-name | CSS color names | No (core) |
+
+### Minimal Configuration
+
+For fastest/smallest builds without images:
+
+```javascript
+const options = {
+  preprocessing: { skipHTMLMinify: true }
+};
+```
+
+See `source-analysis/component-breakdown.md` for the full analysis.
+
+---
+
 ## Files in This Research
 
 - `README.md` - This report
 - `notes.md` - Detailed research notes and tournament brackets
 - `files_list.md` - Complete package inventory
-- `packages/` - Copied package sources for analysis
+- `comparison/` - 20-factor comparison of top 3 packages
+- `source-analysis/` - Component breakdown and size analysis
+  - `component-breakdown.md` - Full component analysis
+  - `turbodocx-source/` - Cloned source code for analysis
 
 ---
 

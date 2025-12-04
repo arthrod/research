@@ -238,3 +238,61 @@ See `comparison/detailed-comparison.md` for the full 20-factor analysis.
 - @packback/html-to-docx: 6.40/10
 
 **Recommendation for "works every time" + comprehensive:** `@turbodocx/html-to-docx`
+
+---
+
+## Source Code Analysis (Added 2025-12-04)
+
+### Phase 3: Component Breakdown for Size Reduction
+
+Cloned and analyzed the @turbodocx/html-to-docx source code to understand:
+1. What components are essential
+2. What can be removed
+3. Dependency optimization opportunities
+
+### Key Findings
+
+**Source Structure:**
+- Total: 32 source files, ~7,565 lines of code
+- Largest file: `xml-builder.js` (4,037 lines / 53% of codebase)
+- 11 runtime npm dependencies
+
+**Component Categories:**
+
+1. **Essential Core (83%)** - Cannot be removed
+   - Entry point, document assembly, XML building
+   - HTML→VDOM parsing, namespaces, constants
+   - ~6,264 lines
+
+2. **Schema Templates (8%)** - Required but can simplify
+   - XML templates for DOCX structure
+   - Some can be hardcoded for fixed use cases
+   - ~579 lines
+
+3. **Utilities (3%)** - Required
+   - Unit conversion, color parsing, etc.
+   - ~260 lines
+
+4. **Image Processing (OPTIONAL)**
+   - `utils/image.js` - 409 lines
+   - Can be completely removed if no images needed
+   - Would also remove 4 npm dependencies
+
+**Size Reduction Opportunities:**
+
+1. **Replace lodash** (~500KB savings)
+   - Only uses `cloneDeep`
+   - Can use `structuredClone()` in modern environments
+
+2. **Remove html-minifier-terser** (~100KB savings)
+   - Set `skipHTMLMinify: true`
+
+3. **Remove image handling** (~200KB + 700 lines)
+   - If images not needed
+   - Remove: axios, lru-cache, image-size, mime-types
+
+**Total Potential Savings:**
+- ~800KB from dependencies
+- ~25-40% code reduction (if images not needed)
+
+See `source-analysis/component-breakdown.md` for the complete analysis
